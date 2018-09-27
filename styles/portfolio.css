@@ -1,0 +1,128 @@
+.arrow
+{
+	margin: 40% 0 0;
+}
+
+div h1
+{
+	text-transform: uppercase;
+	margin-top: 70px;
+}
+
+div h4
+{
+	font-style: italic;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.glyphicon-play
+{
+	font-size: 30px;
+}
+
+.portf
+{
+	margin-bottom: 90px;
+}
+
+.portf [class*="col-"]
+{
+	padding: 30px 0;
+}
+
+.content+p
+{
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.content 
+{
+	position: relative;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.content .content-overlay 
+{
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay
+{
+	opacity: 1;
+}
+
+.content-image
+{
+	width: 100%;
+}
+
+.content-details 
+{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details
+{
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+}
+
+.content-details h3
+{
+	color: #fff;
+	margin-bottom: 0.5em;
+}
+
+.fadeIn-top
+{
+	top: 20%;
+}
+
+
+/* Tablet */
+@media (max-width: 992px)
+{
+	.arrow
+	{
+		margin: 50% 0;
+	}
+
+	.content .content-overlay
+	{
+		opacity: 1;
+	}
+
+	.content .content-details
+	{
+		top: 50%;
+		left: 50%;
+		opacity: 1;
+	}
+}

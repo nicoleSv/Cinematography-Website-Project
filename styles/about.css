@@ -1,0 +1,44 @@
+.about h1
+{
+	text-transform: uppercase;
+	margin: 80px auto 60px;
+}
+
+.arrow
+{
+	margin: 40% 0 0;
+}
+
+.about
+{
+	background-image: url(../images/skewed_print.png);
+	background-position: center center;
+	margin: 120px auto;
+}
+
+.about h2
+{
+	text-transform: uppercase;
+	font-style: normal;
+    letter-spacing: 1px;
+    line-height: 1.6;
+  /*  font-size: 22px;*/
+}
+
+.about p
+{
+	text-align: left;
+    font-family: Roboto, sans-serif;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* MEDIA QUERIES - tablet */
+@media screen and (max-width: 992px)
+{
+	.arrow
+	{
+		margin: 50% 0;
+	}
+}
